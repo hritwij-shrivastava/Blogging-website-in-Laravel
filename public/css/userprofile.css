@@ -1,0 +1,137 @@
+*
+{
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+body{
+    /* background-image: url('ab.jpg'); */
+    /* background-position-y: -300px; */
+    background-color: #f0f2f5;
+    overflow: hidden;
+    overflow-y: auto;
+}
+.cover{
+    background-color: white;
+    position: relative;
+    width: 100%;
+    height: 300px;
+    /* box-shadow: 0 1px 2px rgb(0 0 0 / 10%); */
+    box-shadow: 0 5px 8px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    padding-bottom: 10px
+}
+.view{
+    background-image: url('2.jpg');
+    background-repeat: no-repeat;
+    background-color: transparent;
+    background-size: 100%;
+    position: relative;
+    width: 100%;
+    height: 300px;
+}
+.profilepic{
+    background-color: green;
+    background-repeat: no-repeat;
+    background-position: 0px 0px, -2px 5px;
+    background-size: 100%,110%;
+    position: relative;
+    top: -75px;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    padding: 10px;
+    margin: 0 auto;
+}
+.authorname {
+    background-color: transparent;
+    position: relative;
+    top: -75px;
+    width: 250px;
+    height: auto;
+    text-align: center;
+    font-size: 30px;
+    margin: 0 auto;
+    margin-top: 10px;
+    color: black;
+}
+.des{
+    position: relative;
+    top: -75px;
+    width: 250px;
+    height: auto;
+    font-family: inherit;
+    text-align: center;
+    font-size: 1.0625rem;
+    margin: 0 auto;
+    margin-top: 10px;
+    color: #65676b;
+    line-height: 1.34;
+}
+.author-area{
+    background-color: white;
+    width: 300px;
+    height: 360px;
+    border-radius: 8px;
+}
+.social-link {
+    position: relative;
+    top: -40px;
+    left: 0px;
+    height: 60px;
+    width: 100%;
+    padding: 15px;
+    font-size: 20px;
+    text-align: right;
+}
+.space-between {
+    cursor: pointer;
+    margin-right: 20px;
+}
+.following{
+    float: left;
+    position: relative;
+    top: -20px;
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    border-top: 1px solid #65676b;
+}
+.follower{
+    float: left;
+    position: relative;
+    top: -20px;
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    border: 1px solid #65676b;
+    border-bottom: transparent;
+}
+.views{
+    float: left;
+    position: relative;
+    top: -20px;
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    border-top: 1px solid #65676b;
+}
+.number{
+    color: black;
+    position: relative;
+    top: 25px;
+    font-size: 1.75em;
+}
+.box-for-d{
+    position: absolute;
+    top: 60px;
+    width: 100px;
+    height: auto;
+    text-align: center;
+}
+.item{
+    position: relative;
+    font-style: inherit;
+    color: #65676b;
+    line-height: 1.34;
+    font-size: 1.0625rem;
+}

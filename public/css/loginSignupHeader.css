@@ -1,0 +1,179 @@
+*
+{
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+	
+}
+.navbar2
+{
+	background-color: #f1f1f1;
+    display: flex;
+    padding: 12px;
+	justify-content: flex-start;
+	box-shadow: 0px 0px 5px grey; 
+}
+.navbar2 a
+{
+	color: black;
+	text-align: center;
+	font-weight: bold;
+	text-decoration: none;
+    padding: 14px 0px;
+    font-size: 20px;
+}
+.sticky {
+	position: -webkit-sticky; /* for Safari */
+	position: sticky;
+	top: 0;
+	align-self: flex-start; /* <-- this is the fix */
+}
+.logo_originol{
+    position: absolute;
+    padding: 5px 0px;
+    left: 53px;
+    top: 32px;
+    width: 145px;
+    height: 50px;
+    margin: -28px 2px;
+    outline: none;
+}
+#homebtn{
+    display: inline-block;
+    position: absolute;
+    left: 200px;
+    padding: 6px 16px;
+    border-radius: 1000px;
+    color: var(--black-600);
+    white-space: nowrap;
+    box-sizing: border-box;
+    margin: 0;
+    border: 0;
+    font: inherit;
+    font-size: 100%;
+    vertical-align: baseline;
+    text-decoration: none;
+ }
+#aboutbtn{
+    display: inline-block;
+    position: absolute;
+    left: 275px;
+    padding: 6px 16px;
+    border-radius: 1000px;
+    color: var(--black-600);
+    white-space: nowrap;
+    box-sizing: border-box;
+    margin: 0;
+    border: 0;
+    font: inherit;
+    font-size: 100%;
+    vertical-align: baseline;
+}
+#products{
+    display: inline-block;
+    position: absolute;
+    left: 350px;
+    padding: 6px 16px;
+    border-radius: 1000px;
+    color: var(--black-600);
+    white-space: nowrap;
+    box-sizing: border-box;
+    margin: 0;
+    border: 0;
+    font: inherit;
+    font-size: 100%;
+    vertical-align: baseline;
+}
+#homebtn:hover, #aboutbtn:hover, #products:hover
+{
+	border-radius: 150px;
+    color: green !important;
+    
+}
+#homebtn::after, #aboutbtn::after, #products::after{
+    content: "";
+    transition: 0.2s all ease;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    position: absolute;
+    left: 50%;
+    height: 2px;
+    width: 0;
+    bottom: 0px;
+    -ms-transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%);
+    background-color: green;
+    /* background-color: #c7d326; */
+}
+#homebtn:hover::after, #aboutbtn:hover::after, #products:hover::after{
+    width: 60%;
+}
+form.search_item_new input[type=text] {
+    background: white;
+    background-image: url('../../public/images/selection.png');
+    background-position: 7px 7px ;
+    background-size: 20px;
+    background-repeat: no-repeat;
+    position: fixed;
+    left: 470px;
+    padding-left: 40px;
+    float: right;
+    width: 40em;
+    height: 35px;
+    font-size: 15px;
+    border: 1px solid grey;
+	margin: 1px;
+	box-sizing: border-box;
+	border-radius: 30px;  
+}
+form.search_item_new input:focus {
+    outline:none;
+    box-shadow: 0px 0px 5px green;
+}
+.button2 {
+	background-color: rgb(116, 171, 196);
+    box-shadow: 0 5px 8px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    position: absolute;
+	right: 150px;
+	width: 80px;
+	height: 40px;
+	padding: 0px 0px;
+	margin: -5px;
+    margin-left: 2px;
+    color: white;
+    cursor: pointer;
+	outline:none !important;
+    border: none !important;
+    border-radius: 150px;
+	text-align: center;
+	text-decoration: none;
+  } 
+.button3 {
+    background-color: #008CBA;
+    box-shadow: 0 5px 8px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    position: absolute;
+    right: 60px;
+    width: 80px;
+    height: 40px;
+    padding: 0px 0px;
+    margin: -5px;
+    margin-left: 2px;
+    color: white;
+    cursor: pointer;
+    outline:none !important;
+    border: none !important;
+    border-radius: 150px;
+    text-align: center;
+    text-decoration: none;
+} 
+.button2:hover {
+    background-color: white !important;
+    color: black;
+    box-shadow: 0px 2px 2px rgba(0,0,0,0.2);
+}
+.button3:hover {
+    background-color: white !important;
+    color: black;
+    box-shadow: 0px 2px 2px rgba(0,0,0,0.2);
+}
